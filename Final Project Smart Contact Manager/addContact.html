@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title> Home Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript" src="index.js"></script>
+
+
+        <!-- header and logo -->
+         <!-- header and logo -->
+         <div class="topnav">
+            <img class="logo" src="Image\contactoo.png">
+            <a class="active" href="index.html">Click Here To Go To Home Page</a> 
+        <div class="divider"></div>
+        </div>
+
+        <!-- {/* nav bar and content */} -->
+
+        <!-- {/* sidebar */} -->
+
+        <div class="sidebar cross1" >
+            <span onclick="closeNav()" class="crossBtn">&times;</span>
+            <a class="sidebar-items" href="indexHome.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a class="sidebar-items" href="addContact.html"><i class="fa-solid fa-user-pen"></i>Add Contact</a>
+            <a class="sidebar-items" href="updateContact.html"><i class="fa-solid fa-pen"></i>Update Contact</a>
+            <a class="sidebar-items" href="deleteContact.html"><i class="fa-sharp fa-solid fa-trash"></i>Delete Contact</a>
+            <a class="sidebar-items" href="aboutUs.html"><i class="fa-solid fa-circle-info"></i>About Us</a> 
+        </div>
+
+        <!-- {/* content */} -->
+        <div class="content">
+            <span onclick="openNav()" class="hambergurgers"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </div>
+        <div class="signup-form-container delete-header">
+            <h2 class="heading">Add Contact</h2>
+                <form id="add">
+                <div class="signup-element-container">
+                    <div class="form-group">
+                        <label class="label" for="Name">Name</label>
+                        <input type="text" placeholder="Enter your name" class="form-input" name="name" id="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="label" for="Email">Email</label>
+                        <input type="text" placeholder="Enter your email" class="form-input" name="emailid" id="Email" 
+                               required >
+                    </div>
+                    <div class="form-group">
+                        <label class="label" for="mobile_number">Mobile Number</label>
+                        <input type="text" placeholder="Enter your mobile number" class="form-input" name="mobilenumber" id="mobile_number" pattern="[0-9]{10}" required >
+                    </div>
+                    <div class="form-group">
+                        <label class="label" for="Work">work</label>
+                        <input type="text" placeholder="Enter your work" class="form-input" name="work" id="Work"  required>
+                    </div>
+                </div>
+                <div class="form-group">
+                 <input type="button" onclick="formSubmit2();" value="Add" class="btn">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

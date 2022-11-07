@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    /* background-color: rgb(70, 70, 223); */
+    /* background-color: rgb(11, 11, 48); */
+    color: white;
+    background-color: #142850;
+}
+
+/* .navigate{
+    color:blue;
+} */
+
+a{
+    color:blue;
+}
+.link{
+    margin-top: 5px;
+    margin-left: 550px;
+    padding-left: 12px;
+    padding-right: 20px;
+
+}
+
+.logo{
+    height: 47px;
+
+}
+
+div.main{
+    width: 400px;
+    margin: 70px auto 0px auto;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signup{
+    /* background-color: rgb(70, 70, 223); */
+    background-color: #142850;
+    /* background-color: rgb(11, 11, 48); */
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1p solid black;
+    color: rgb(236, 227, 227);
+}
+
+#register{
+    margin: 40px;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+input{
+    width: 300px;
+    border: 1px solid black;
+    outline: 0;
+    padding: 7px;
+    background-color: beige;
+}
+
+.linput{
+    margin-left: 47px;
+}
+
+.elabel{
+    margin-left: 47px;
+}
+#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    margin-left: 60px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 12px;
+}
+
+.pwlink{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+a{
+    padding-left: 18px;
+    /* padding: 18px; */
+    padding-right: 18px;
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: rgb(234, 238, 247);
+    font-size: 20px;
+    /* margin-top: 2px; */
+    /* background-color: rgb(14, 13, 13); */
+}

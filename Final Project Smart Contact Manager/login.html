@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SignUpForm</title>
+        <link rel="stylesheet" href="style2.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- Smart Contact Manager -->
+            <img src="Image\contactoo.png" class="logo" alt="logo">
+            <div class="link">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="SignUp.html">Signup</a>
+                <a href="LogIn.html">Login</a>
+            </div>
+        </header>
+        <div class="main">
+            <div class="signup">
+                <h2>LogIn</h2>
+                <form id="register1">
+                    <label for = "emailid" class="elabel">Emailid:</label><br>
+                    <input type="text" name="emailid" id="emailid" class="linput" placeholder="Enter Your EmailId"
+                     required>
+                    <br><br>
+                   <label for="pw" class="elabel">Password:</label><br>
+                    <input type="password" name="password" id="pw" class="linput" placeholder="Enter Password"
+                     required><br>
+                     <a href="forgetPage.html" class="pwlink">Forget Password</a><br><br>
+                    <button type="button" onclick="submitForm1();" id="submit">Login</a></button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="index.js"></script>

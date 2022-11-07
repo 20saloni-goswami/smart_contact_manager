@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title> Home Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript" src="index.js"></script>
+
+
+        <!-- header and logo -->
+         <!-- header and logo -->
+         <div class="topnav">
+            <img class="logo" src="image\contactoo.png">
+            <a class="active" href="index.html">Click Here To Go To Home Page</a> 
+        <div class="divider"></div>
+        </div>
+
+        <!-- {/* nav bar and content */} -->
+
+        <!-- {/* sidebar */} -->
+
+        <div class="sidebar cross1" >
+            <span onclick="closeNav()" class="crossBtn">&times;</span>
+            <a class="sidebar-items" href="indexhome.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a class="sidebar-items" href="addContact.html"><i class="fa-solid fa-user-pen"></i>Add Contact</a>
+            <a class="sidebar-items" href="updateContact.html"><i class="fa-solid fa-pen"></i>Update Contact</a>
+            <a class="sidebar-items" href="deleteContact.html"><i class="fa-sharp fa-solid fa-trash"></i>Delete Contact</a>
+            <a class="sidebar-items" href="aboutUs.html"><i class="fa-solid fa-circle-info"></i>About Us</a> 
+        </div>
+
+        <!-- {/* content */} -->
+        <div class="content">
+        <span onclick="openNav()" class="hambergurgers"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </div>
+        <div class= "login-form-container delete-header">
+            <h2 class="heading">Delete Contact</h2>
+                <form id="delete">
+                <div class="login-element-container">
+                    <div class="form-group">
+                        <label class="label" id="mobile_number">Delete</label>
+                        <input class="form-input" placeholder="Enter mobile number" type="text" name="mobilenumber" id="mobile_number" required>
+                    </div>
+                </div>
+                <input type="button" onclick="deleteContact();" value="Delete" class="btn">
+            </form>
+        </div>
+    </body>
+</html>
